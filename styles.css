@@ -1,0 +1,50 @@
+body {
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: 0.01rem;
+  color: #212121;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+}
+
+.candidates {
+  font-size: 12px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #;
+}
+
+.candidates th {
+  font-size: 16px;
+  font-weight: normal;
+  color: #039;
+  padding: 10px 8px;
+  border-bottom: 2px solid #6678b1;
+}
+
+.candidates td {
+  color: #669;
+  padding: 9px 8px 0px 8px;
+}
+
+.candidates tbody tr:hover td {
+  color: #009;
+}
+
+.jumbotron {
+  background: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center;
+  background-size: cover;
+  height: 100%;
+}
+
+#SkillInput, #NameInput {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
